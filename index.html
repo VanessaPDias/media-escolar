@@ -27,41 +27,45 @@
     >
       <div class="container">
         <div class="row align-items-center min-vh-100">
-          <div class="col-md-1 col-lg-4"></div>
-          <div class="col-sm-10 col-md-6 col-lg-4">
-            <h2>Calculadora de Média</h2>
-            <h5>Descubra qual a sua média de notas.</h5>
-            <p id="erro" style="color: red; font-weight: bolder;"></p>
+          <div class="col text-center">
+            <div class="row ">
+              <div class="col">
+                <h2>Calculadora de Média</h2>
+                <h5>Descubra qual a sua média de notas.</h5>
+                <p id="erro" style="color: red; font-weight: bolder;"></p>
+              </div>
+            </div>
+            
             <div class="row my-2">
-              <div>
+              <div class="col">
                 <label for="nota1">1º Bimestre:</label>
                 <input id="nota1" type="number" min="0" max="10"/>
               </div>
             </div>
 
             <div class="row my-2">
-              <div>
+              <div class="col">
                 <label for="nota2">2º Bimestre:</label>
                 <input id="nota2" type="number" min="0" max="10" />
               </div>
             </div>
 
             <div class="row my-2">
-              <div>
+              <div class="col">
                 <label for="nota3">3º Bimestre:</label>
                 <input id="nota3" type="number" min="0" max="10"/>
               </div>
             </div>
 
             <div class="row my-2">
-              <div>
+              <div class="col">
                 <label for="nota4">4º Bimestre:</label>
                 <input id="nota4" type="number" min="0" max="10"/>
               </div>
             </div>
 
             <div class="row my-3">
-              <div>
+              <div class="col">
                 <button
                   type="button"
                   class="btn btn-secondary btn-lg"
@@ -78,9 +82,12 @@
                 </button>
               </div>
             </div>
-            <h4 id="resultado"></h4>
+            <div class="row">
+              <div class="col">
+                <h4 id="resultado"></h4>
+              </div>
+            </div>
           </div>
-          <div class="col-md-1 col-lg-4"></div>
         </div>
       </div>
     </div>
