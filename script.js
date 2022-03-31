@@ -17,7 +17,7 @@ function calcularMedia() {
     const nota4 = pegarValorInput('#nota4')
 
     var media = (nota1 + nota2 + nota3 + nota4) / 4
-    media > 5
+    media >= 5
       ? imprimirResultado(media, '&#128512 APROVADO!')
       : imprimirResultado(media, '&#128532 REPROVADO!')
   } catch (excecao) {
